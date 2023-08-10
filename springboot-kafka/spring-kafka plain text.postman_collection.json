@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "f6c1f01a-a1ab-4008-a6ac-936ef79fe6db",
+		"name": "spring-kafka plain text",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2551975"
+	},
+	"item": [
+		{
+			"name": "publish book to kafka topic Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/publish?message=this is test msg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"publish"
+					],
+					"query": [
+						{
+							"key": "message",
+							"value": "this is test msg"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
