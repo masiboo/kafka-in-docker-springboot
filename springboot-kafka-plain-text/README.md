@@ -2,7 +2,7 @@
 
 We have to configure Kafka Topic, Producer and Consumer. This can be done either by Java code or application.property
 
-This demo is for the Java code. 
+This demo is for application.yml. 
 
 
 
